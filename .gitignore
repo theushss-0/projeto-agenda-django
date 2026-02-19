@@ -137,4 +137,6 @@ GitHub.sublime-settings
 !.vscode/extensions.json 
 .history
 .vscode
-passwords_django_testes.txt
+.passwords_django_testes.txt
+static
+media
