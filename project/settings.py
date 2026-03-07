@@ -127,3 +127,11 @@ STATICFILES_DIRS = (
 )
 
 STATIC_ROOT = BASE_DIR / 'static' # collectstatic
+
+
+try:
+    from project.local_settings import *
+except ImportError:
+    ...
+except Exception:
+    ...

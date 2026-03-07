@@ -140,3 +140,4 @@ GitHub.sublime-settings
 .passwords_django_testes.txt
 static
 media
+project/local_settings.py
